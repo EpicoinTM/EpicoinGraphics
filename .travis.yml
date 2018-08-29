@@ -1,0 +1,14 @@
+language: csharp
+solution: src/EpicoinGraphics/EpicoinGraphics.sln
+mono:
+  - latest
+script:    
+  - git pull
+  - git fetch --all
+  - echo "Build Test"
+  - make
+  - make dependency
+  - make build
+  
+  - echo "NUNIT Test"
+  

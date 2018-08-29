@@ -4,7 +4,7 @@ APP_NAME=EpicoinGraphics
 DEPENDENCY_NAME=Epicoin
 
 DEPENDENCY_DIR=/dependency/$(DEPENDENCY_NAME)/
-SOURCE_DIR=/src/$(APP_NAME)/
+SOURCE_DIR=/src/$(APP_NAME)/$(APP_NAME)/
 BIN_DIR=/bin/
 
 
